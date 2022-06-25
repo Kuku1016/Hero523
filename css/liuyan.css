@@ -1,0 +1,256 @@
+body{
+    font-family: montserrat;
+}
+.main {
+    margin: 0 10%;
+}
+
+.heartop {
+    width: 100%;
+}
+
+.heartop img {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.header {/*页眉区和导航区和前面一样*/
+    width: 100%;
+    background-color: #fbc5c5;
+    margin-top: -4px;
+    display: flex;
+    height: 80px;
+
+}
+nav{
+    background:#fbc5c5 ;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+label.name{
+    color: #fff;
+    font-size: 45px;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a.active,a:hover{
+     background:#FF9999;
+     transition: .5s;
+
+}
+
+.banner {
+
+    background-size: 100% 100%;
+    height: 400px;
+    padding: 31px 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 2px solid #FBFBFB;
+
+}
+.banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url(../images/背景图8.jpg) no-repeat left top/cover;
+    filter: blur(5px);
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.banner #sentence{
+    font-size: 40px;
+    position: relative;
+    float: left;
+    width: 550px;
+    padding-right: 60px;
+    padding-top: 17%;
+    color:rgb(134, 247, 236);
+    font-family: 新宋体;
+}
+
+
+.banner .bannerTotal {
+    opacity: 0.8;
+    background-color: #fff;
+    border: 1px solid #FF9999;
+    border-radius: 19px;
+    width: 60%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.smart-green {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #F8F8F8;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    }
+ 
+    
+    .smart-green label {
+       display: block;  /*块状*/
+       margin: 0px 0px 5px;
+    }
+    .smart-green label>span {
+      float: left;
+      margin-top: 10px;
+      font-size: 16px;
+      color: #000;
+    }
+    .smart-green input[type="text"],.smart-green input[type="password"], .smart-green input[type="email"], .smart-green textarea, .smart-green select {
+        color: #000;
+        height: 30px;
+        line-height:15px;
+        width: 100%;
+        padding: 0px 0px 0px 10px;
+        margin-top: 2px;
+        border: 1px solid #aaa;
+        background: #FBFBFB;
+        outline: 0;
+        -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+        box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+        font: normal 14px/14px Arial, Helvetica, sans-serif;
+        }
+
+    .smart-green .button {
+    background-color: #9DC45F;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+    }
+
+    .smart-green .button:hover {
+    background-color:#80A24A;
+    }
+.radioTop{
+    text-align: center;
+    font-size: 25px;
+    font-family: 等线;
+
+ }
+.radio{  /*视频区，可以播放视频*/
+    margin-bottom: 10px;
+    height: 250px;
+
+}
+ .radio1{
+    width: 47%;
+    height: 200px;
+    margin-top: 10px;
+    float: left;/*将每一个盒子设置成内联元素，并设置浮动属性*/
+    display: inline;
+    background-color: #f9cfcf;
+    border: 4px solid #fcb6b6;
+
+ }
+ .radio1 .radio1inner{
+    margin:   0px 5px 0 80px;
+    border: #fff solid 2px;
+    height: 150px;
+    width: 70%;
+    font-family: 新宋体;
+    font-size: 20px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s;/*每个简介radio盒子里有radioinner盒子，对radioinner盒子设置动画效果，下面也是一样*/
+    box-shadow: inset 0 0 0 16px rgba(255,255,255,.6),0 1px 2px rgba(0,0,0,.1);
+ }
+ .radio1 .radio1inner:hover{
+    transform: scale(1.2)
+ }
+.radio2{
+    width: 47%;
+    height: 200px;
+    margin-top: 10px;
+    float: right;
+    display: inline;
+    border: 4px solid #fcb6b6;
+}
+.radio-1{
+        margin-bottom: 10px;
+        height: 250px;
+    
+}
+.radio3{
+    width: 47%;
+    height: 200px;
+    margin-top: 10px;
+    float: right;
+    display: inline;
+    background-color: #f9cfcf;
+    border: 4px solid #fcb6b6;
+}
+.radio3 .radio2inner{
+    margin:   0px 5px 0 80px;
+    border: #fff solid 2px;
+    height: 150px;
+    width: 70%;
+    font-family: 新宋体;
+    font-size: 20px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s;
+    box-shadow: inset 0 0 0 16px rgba(255,255,255,.6),0 1px 2px rgba(0,0,0,.1);
+}
+.radio3 .radio2inner:hover{
+    transform: scale(1.2)
+}
+.radio4{
+    width: 47%;
+    height: 200px;
+    margin-top: 10px;
+    float: left;
+    display: inline;
+    border: 4px solid #fcb6b6;
+}
+.foots{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #909399;
+    color: #fff;
+}

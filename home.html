@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+</head>
+<link rel="stylesheet" href="./css/home.css">
+
+<body>
+    <div class="main">
+        <div class="heartop">
+            <img src="./images/背景图1.jpg" alt=""><!--页眉区，放置了一张图片-->
+        </div>
+        <div class="header"><!--导航区-->
+            <nav>  <!--使用html5新元素，nav表示导航区-->
+                <label class="name">MissY</label>
+               <ul>
+                <li><a class="active" href="./home.html">homepage</a></li><!--导航区的布局是列表的形式，每一个表项链接到一个页面-->
+                <li><a  href="./news.html">hobby</a></li>
+                <li><a  href="./liuyan.html">leave a note</a></li>
+                <li ><a  href="./wenan.html">daliy record</a></li>
+               </ul>
+            </nav>
+        </div>
+        <div class="banner"><!--上半部分整体banner，里面有一个bannerTotal盒子，bannerTotal又分为左和右-->
+            <div class="bannerTotal">
+                <div class="bannerleft"><!-- 上半部分左侧 -->
+                    <div>
+                        <img src="./images/头像.jpg" alt="">
+                        <p>个人资料</p>
+                        <p>联系方式</p>
+                        <p>个人照片</p>
+                    </div>
+                </div>
+                <div class="bannerRight"><!-- 上半部分右侧 -->
+                    <table border="1" align="center" cellspacing="0" cellpadding="0"><!--个人简介表格-->
+                        <tr><!--一行表格-->
+                            <td>姓名</td>
+                            <td>杨阳</td>
+                            <td>性别</td>
+                            <td>女</td>
+                            <td>民族</td>
+                            <td>汉</td>
+                            <td rowspan="3"><img src="./images/照片.jpg" alt=""></td><!--一个单元格占据三行-->
+                        </tr>
+                        <tr>
+                            <td>出生日期</td>
+                            <td>2002-10-16</td>
+                            <td>手机号码</td>
+                            <td>16655820291</td>
+                            <td>QQ号码</td>
+                            <td>1585056217</td>
+                        </tr>
+                        <tr>
+                            <td>学校</td>
+                            <td colspan="2">中南财经政法大学</td>
+                            <td>籍贯</td>
+                            <td colspan="2">安徽省阜阳市</td>
+                        </tr>
+                        <tr>
+                            <td>说在前面</td>
+                            <td colspan="6">欢迎来到我的花园，在这里你可以走进我的世界，也可以留下你来过的痕迹</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- 右侧 -->
+             </div>
+        </div>
+        <div class="contanier1">
+           <p>成长历程</p>
+        </div>
+        <div class="contanier"><!--下半部分，里面有一个inner盒子，inner里放置三个盒子，contanier-1、contanier-2、contanier-3-->
+            <div class="inner">
+                <div class="contanier-1">
+                    <img src="./images/小学.jpg" alt="">
+                    <h3>最自在的童年</h3>
+                    <div class="content">
+                        <p>小学是最开心的时光，当时去看过很多祖国的大好河山，也去品尝过很多美食。那时的生活就像是泡在蜂蜜里，回忆起来全是甜的。</p>
+                    </div>
+                </div>
+                <div class="contanier-2">
+                    <img src="./images/高中.jpg" alt="">
+                    <h3>最难忘的高中</h3>
+                    <div class="content">
+                        <p>高中的时光虽然辛苦，但也是我最难忘的三年。那时候有最好的朋友陪伴，有着最美好的青春，那时每天的晚霞都是如此绚烂。</p>
+                    </div>
+                </div>
+                <div class="contanier-3">
+                    <img src="./images/大学.jpg" alt="">
+                    <h3>最多彩的大学</h3>
+                    <div class="content">
+                        <p>大学的日子每天都是充实的，每天向着自己的目标前行，有着最简单的小幸运和最美好的邂逅，自由而快乐，随性而满足。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 页脚区-->
+        <div class="foots">
+            <span>Copyright@ 归个人所有</span>
+        </div>
+    </div>
+</body>
+</html>

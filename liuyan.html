@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给我留言</title>
+</head>
+<link rel="stylesheet" href="./css/liuyan.css">
+
+<body>
+    <div class="main">
+        <div class="heartop">
+            <img src="./images/背景图1.jpg" alt="">
+        </div>
+        <div class="header">
+            <nav>
+                <label class="name">MissY</label>
+               <ul>
+                <li><a  href="./home.html">homepage</a></li>
+                <li><a  href="./news.html">hobby</a></li>
+                <li><a  class="active" href="./liuyan.html">leave a note</a></li>
+                <li ><a  href="./wenan.html">daliy record</a></li>
+               </ul>
+            </nav>
+        </div>
+        <div class="banner"><!--banner区里有一个表单，用来写留言，提交之后跳转到首页-->
+            <!-- 右侧 -->
+            <div id="sentence">我想听你关于我的秘密</div>
+            <div class="bannerTotal">
+                <form action="./home.html" method="post" class="smart-green" style="margin-top: 40px;">
+                    <label>
+                      <span>姓名：</span>
+                      <input id="username" type="text" name="username"><!--填写姓名-->
+                    </label>
+              
+                    <label style="display: flex;">
+                      <span>性别：</span>
+                     <input id="password" type="radio" name="password" style="margin-top: 15px;"> <span style="font-size: 14px;"> 男</span>
+                    <input id="password" type="radio" name="password" style="margin-top: 15px;margin-left: 10px;"><span style="font-size: 14px;"> 女</span>
+                    </label><!--选择性别-->
+                    <label>
+                        <span>留言：</span>
+                        <input id="password" type="text" name="password"><!--填写留言-->
+                      </label>
+                      <span>&nbsp;</span>
+              
+                    <label>
+                        <input type="submit" class="button" value="确定">
+                      <input type="submit" class="button" value="取消" style="margin-left: 10px;">
+                    </label>
+                  </form>
+            </div>
+
+        </div>
+        <div class="radioTop">
+            <p>失眠电台</p>
+        </div>
+        <div class="radio"><!--下面是视频放映厅，点开之后可以放映视频。一共有六个盒子，三个盒子是视频简介，三个盒子是视频-->
+           <div class="radio1">
+            <div class="radio1inner">
+               <p>这一次<br>
+            你能不能和我说句晚安</p>
+              </div>
+           </div>
+           <div class="radio2">
+            <video src="./images/video1.mp4" style="width: 100%; height:100%; object-fit: fill"></video>
+           </div>
+        </div>
+        <div class="radio-1">
+            <div class="radio3">
+                <div class="radio2inner">
+                    <p>夏天的风吹过<br>
+                       请你不要忘记我</p>
+                </div>
+            </div>
+            <div class="radio4">
+                <video src="./images/video2.mp4" style="width: 100%; height:100%; object-fit: fill"></video>
+            </div>
+        </div>
+        <div class="radio">
+            <div class="radio1">
+                <div class="radio1inner">
+                    <p>不说再见<br>
+                    有些事值得永远怀念</p>
+                </div>
+            </div>
+            <div class="radio2">
+                <video src="./images/video3.mp4" style="width: 100%; height:100%; object-fit: fill"></video>
+            </div>
+        </div>
+        <!-- 底部 页脚区-->
+        <div class="foots">   
+            <span>Copyright@ 归个人所有</span>
+        </div>
+    </div>
+</body>
+
+</html>
